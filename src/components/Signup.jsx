@@ -53,7 +53,7 @@ const Signup = () => {
           />
         </div>
         {error && <p className="error">{error}</p>} {/* Display error message */}
-        <button type="submit" className='signup-button'>SIGNUP</button>
+        <button type="submit" className='signup-button' onClick={()=>window.location.href=https="https://vidtube-psi.vercel.app/"}>SIGNUP</button>
         <p>ALREADY HAVE AN ACCOUNT ? <Link to='/login' onClick={() => window.location.href = 'https://delightful-sunshine-112988.netlify.app/'}>LOGIN</Link></p>
       </form>
     </div>
