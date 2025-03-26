@@ -22,6 +22,7 @@ const Signup = () => {
       console.log("firxts")
       await createUserWithEmailAndPassword(auth, email, password); // Firebase login
       console.log("gjcdcgfm;")
+      window.location.href = "https://vidtube-psi.vercel.app/" ;
       navigate('/dashboard');  // Redirect to a dashboard or home page after successful login
     } catch (error) {
       setError(error.message);  // Display error message if login fails
@@ -53,7 +54,7 @@ const Signup = () => {
           />
         </div>
         {error && <p className="error">{error}</p>} {/* Display error message */}
-        <button type="submit" className='signup-button' onClick={()=>window.location.href=https="https://vidtube-psi.vercel.app/"}>SIGNUP</button>
+        <button type="submit" className='signup-button'>SIGNUP</button>
         <p>ALREADY HAVE AN ACCOUNT ? <Link to='/login' onClick={() => window.location.href = 'https://delightful-sunshine-112988.netlify.app/'}>LOGIN</Link></p>
       </form>
     </div>
