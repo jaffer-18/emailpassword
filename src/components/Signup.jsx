@@ -18,6 +18,7 @@ const Signup = () => {
     console.log("Email:", email);
     console.log("Password:", password);  
 
+    // nbhiiujhjjh
     try {
       console.log("firxts")
       await createUserWithEmailAndPassword(auth, email, password); // Firebase login
